@@ -1,0 +1,15 @@
+PODS:
+  - CYLTabBarController (1.10.0)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - CYLTabBarController (= 1.10.0)
+  - MBProgressHUD (= 0.9.2)
+
+SPEC CHECKSUMS:
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 5c9277f0cbf9c23de1846378f4b7b9481683a08d
+
+COCOAPODS: 1.0.1
