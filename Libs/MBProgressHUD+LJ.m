@@ -7,7 +7,6 @@
 //
 
 #import "MBProgressHUD+LJ.h"
-#import "UIImage+GIF.h"
 @implementation MBProgressHUD (LJ)
 
 #pragma mark 显示信息

@@ -13,9 +13,6 @@
 		CD2B3E361E95ECE300FDFDA3 /* MyFramework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E341E95ECE300FDFDA3 /* MyFramework.xcdatamodeld */; };
 		CD2B3E381E95ECE300FDFDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2B3E371E95ECE300FDFDA3 /* Assets.xcassets */; };
 		CD2B3E3B1E95ECE300FDFDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B3E391E95ECE300FDFDA3 /* LaunchScreen.storyboard */; };
-		CD2B3E581E95F27A00FDFDA3 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E571E95F27A00FDFDA3 /* UIBaseViewController.m */; };
-		CD2B3E5B1E95F29F00FDFDA3 /* TheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E5A1E95F29F00FDFDA3 /* TheSecondViewController.m */; };
-		CD2B3E5E1E95F2BE00FDFDA3 /* TheThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E5D1E95F2BE00FDFDA3 /* TheThirdViewController.m */; };
 		CD2B3E611E95F2D000FDFDA3 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E601E95F2D000FDFDA3 /* PersonViewController.m */; };
 		CD2B3E641E95F2EE00FDFDA3 /* TheFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E631E95F2EE00FDFDA3 /* TheFirstViewController.m */; };
 		CD2B3E671E95F84000FDFDA3 /* SHTabbarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E661E95F84000FDFDA3 /* SHTabbarControllerConfig.m */; };
@@ -23,6 +20,9 @@
 		CD2B3E6E1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E6D1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m */; };
 		CD2B3E721E96380900FDFDA3 /* WRBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E701E96380900FDFDA3 /* WRBButton.m */; };
 		CD2B3E751E9644B800FDFDA3 /* MBProgressHUD+LJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E741E9644B800FDFDA3 /* MBProgressHUD+LJ.m */; };
+		CD2B3E881E964D6C00FDFDA3 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E7B1E964D6C00FDFDA3 /* UIBaseViewController.m */; };
+		CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E811E964D6C00FDFDA3 /* TheSecondViewController.m */; };
+		CD2B3E8A1E964D6C00FDFDA3 /* TheThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E871E964D6C00FDFDA3 /* TheThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +35,6 @@
 		CD2B3E371E95ECE300FDFDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2B3E3A1E95ECE300FDFDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2B3E3C1E95ECE300FDFDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD2B3E561E95F27A00FDFDA3 /* UIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBaseViewController.h; sourceTree = "<group>"; };
-		CD2B3E571E95F27A00FDFDA3 /* UIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBaseViewController.m; sourceTree = "<group>"; };
-		CD2B3E591E95F29F00FDFDA3 /* TheSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheSecondViewController.h; sourceTree = "<group>"; };
-		CD2B3E5A1E95F29F00FDFDA3 /* TheSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSecondViewController.m; sourceTree = "<group>"; };
-		CD2B3E5C1E95F2BE00FDFDA3 /* TheThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheThirdViewController.h; sourceTree = "<group>"; };
-		CD2B3E5D1E95F2BE00FDFDA3 /* TheThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheThirdViewController.m; sourceTree = "<group>"; };
 		CD2B3E5F1E95F2D000FDFDA3 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
 		CD2B3E601E95F2D000FDFDA3 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		CD2B3E621E95F2EE00FDFDA3 /* TheFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheFirstViewController.h; sourceTree = "<group>"; };
@@ -56,6 +50,12 @@
 		CD2B3E711E96380900FDFDA3 /* WRBQuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBQuickControl.h; sourceTree = "<group>"; };
 		CD2B3E731E9644B800FDFDA3 /* MBProgressHUD+LJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LJ.h"; sourceTree = "<group>"; };
 		CD2B3E741E9644B800FDFDA3 /* MBProgressHUD+LJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LJ.m"; sourceTree = "<group>"; };
+		CD2B3E7A1E964D6C00FDFDA3 /* UIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBaseViewController.h; sourceTree = "<group>"; };
+		CD2B3E7B1E964D6C00FDFDA3 /* UIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBaseViewController.m; sourceTree = "<group>"; };
+		CD2B3E801E964D6C00FDFDA3 /* TheSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheSecondViewController.h; sourceTree = "<group>"; };
+		CD2B3E811E964D6C00FDFDA3 /* TheSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSecondViewController.m; sourceTree = "<group>"; };
+		CD2B3E861E964D6C00FDFDA3 /* TheThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheThirdViewController.h; sourceTree = "<group>"; };
+		CD2B3E871E964D6C00FDFDA3 /* TheThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheThirdViewController.m; sourceTree = "<group>"; };
 		D93C74DCE96117D59F61F8BC /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D2BDE6813885117EC4F269 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,10 +92,10 @@
 		CD2B3E1C1E95ECE300FDFDA3 = {
 			isa = PBXGroup;
 			children = (
+				CD2B3E761E964D6C00FDFDA3 /* UIBaseViewController */,
+				CD2B3E7C1E964D6C00FDFDA3 /* Two */,
+				CD2B3E821E964D6C00FDFDA3 /* Three */,
 				CD2B3E6B1E96322900FDFDA3 /* Libs */,
-				CD2B3E521E95F25C00FDFDA3 /* UIBaseViewController */,
-				CD2B3E421E95F21400FDFDA3 /* Two */,
-				CD2B3E461E95F21400FDFDA3 /* Three */,
 				CD2B3E4A1E95F21400FDFDA3 /* Person */,
 				CD2B3E4E1E95F21400FDFDA3 /* First */,
 				CD2B3E271E95ECE300FDFDA3 /* MyFramework */,
@@ -137,72 +137,6 @@
 				CD2B3E291E95ECE300FDFDA3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CD2B3E421E95F21400FDFDA3 /* Two */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B3E431E95F21400FDFDA3 /* Model */,
-				CD2B3E441E95F21400FDFDA3 /* View */,
-				CD2B3E451E95F21400FDFDA3 /* ViewController */,
-			);
-			path = Two;
-			sourceTree = "<group>";
-		};
-		CD2B3E431E95F21400FDFDA3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CD2B3E441E95F21400FDFDA3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CD2B3E451E95F21400FDFDA3 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B3E591E95F29F00FDFDA3 /* TheSecondViewController.h */,
-				CD2B3E5A1E95F29F00FDFDA3 /* TheSecondViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		CD2B3E461E95F21400FDFDA3 /* Three */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B3E471E95F21400FDFDA3 /* Model */,
-				CD2B3E481E95F21400FDFDA3 /* View */,
-				CD2B3E491E95F21400FDFDA3 /* ViewController */,
-			);
-			path = Three;
-			sourceTree = "<group>";
-		};
-		CD2B3E471E95F21400FDFDA3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CD2B3E481E95F21400FDFDA3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CD2B3E491E95F21400FDFDA3 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B3E5C1E95F2BE00FDFDA3 /* TheThirdViewController.h */,
-				CD2B3E5D1E95F2BE00FDFDA3 /* TheThirdViewController.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		CD2B3E4A1E95F21400FDFDA3 /* Person */ = {
@@ -271,39 +205,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		CD2B3E521E95F25C00FDFDA3 /* UIBaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B3E531E95F25C00FDFDA3 /* Model */,
-				CD2B3E541E95F25C00FDFDA3 /* View */,
-				CD2B3E551E95F25C00FDFDA3 /* ViewController */,
-			);
-			path = UIBaseViewController;
-			sourceTree = "<group>";
-		};
-		CD2B3E531E95F25C00FDFDA3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CD2B3E541E95F25C00FDFDA3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CD2B3E551E95F25C00FDFDA3 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CD2B3E561E95F27A00FDFDA3 /* UIBaseViewController.h */,
-				CD2B3E571E95F27A00FDFDA3 /* UIBaseViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		CD2B3E6B1E96322900FDFDA3 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +217,105 @@
 				CD2B3E711E96380900FDFDA3 /* WRBQuickControl.h */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		CD2B3E761E964D6C00FDFDA3 /* UIBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3E771E964D6C00FDFDA3 /* Model */,
+				CD2B3E781E964D6C00FDFDA3 /* View */,
+				CD2B3E791E964D6C00FDFDA3 /* ViewController */,
+			);
+			path = UIBaseViewController;
+			sourceTree = "<group>";
+		};
+		CD2B3E771E964D6C00FDFDA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD2B3E781E964D6C00FDFDA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD2B3E791E964D6C00FDFDA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3E7A1E964D6C00FDFDA3 /* UIBaseViewController.h */,
+				CD2B3E7B1E964D6C00FDFDA3 /* UIBaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CD2B3E7C1E964D6C00FDFDA3 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3E7D1E964D6C00FDFDA3 /* Model */,
+				CD2B3E7E1E964D6C00FDFDA3 /* View */,
+				CD2B3E7F1E964D6C00FDFDA3 /* ViewController */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		CD2B3E7D1E964D6C00FDFDA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD2B3E7E1E964D6C00FDFDA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD2B3E7F1E964D6C00FDFDA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3E801E964D6C00FDFDA3 /* TheSecondViewController.h */,
+				CD2B3E811E964D6C00FDFDA3 /* TheSecondViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CD2B3E821E964D6C00FDFDA3 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3E831E964D6C00FDFDA3 /* Model */,
+				CD2B3E841E964D6C00FDFDA3 /* View */,
+				CD2B3E851E964D6C00FDFDA3 /* ViewController */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		CD2B3E831E964D6C00FDFDA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD2B3E841E964D6C00FDFDA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD2B3E851E964D6C00FDFDA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B3E861E964D6C00FDFDA3 /* TheThirdViewController.h */,
+				CD2B3E871E964D6C00FDFDA3 /* TheThirdViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,18 +440,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2B3E5B1E95F29F00FDFDA3 /* TheSecondViewController.m in Sources */,
-				CD2B3E5E1E95F2BE00FDFDA3 /* TheThirdViewController.m in Sources */,
 				CD2B3E6A1E961E3400FDFDA3 /* SHPlusButtonSubClass.m in Sources */,
 				CD2B3E361E95ECE300FDFDA3 /* MyFramework.xcdatamodeld in Sources */,
 				CD2B3E2D1E95ECE300FDFDA3 /* AppDelegate.m in Sources */,
 				CD2B3E751E9644B800FDFDA3 /* MBProgressHUD+LJ.m in Sources */,
 				CD2B3E2A1E95ECE300FDFDA3 /* main.m in Sources */,
 				CD2B3E6E1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m in Sources */,
-				CD2B3E581E95F27A00FDFDA3 /* UIBaseViewController.m in Sources */,
 				CD2B3E611E95F2D000FDFDA3 /* PersonViewController.m in Sources */,
 				CD2B3E721E96380900FDFDA3 /* WRBButton.m in Sources */,
+				CD2B3E881E964D6C00FDFDA3 /* UIBaseViewController.m in Sources */,
+				CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */,
 				CD2B3E641E95F2EE00FDFDA3 /* TheFirstViewController.m in Sources */,
+				CD2B3E8A1E964D6C00FDFDA3 /* TheThirdViewController.m in Sources */,
 				CD2B3E671E95F84000FDFDA3 /* SHTabbarControllerConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
