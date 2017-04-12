@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C7BCCA53C035AC9A2C4A5B5F /* libPods-MyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7751F832FBF8D6BEDB6BEA /* libPods-MyFramework.a */; };
+		CD0835CC1E9E055500D7D133 /* SHNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0835CB1E9E055500D7D133 /* SHNetworkingManager.m */; };
+		CD0835D41E9E11FD00D7D133 /* CLImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0835CF1E9E11FD00D7D133 /* CLImageModel.m */; };
+		CD0835D51E9E11FD00D7D133 /* NSString+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0835D11E9E11FD00D7D133 /* NSString+Cache.m */; };
+		CD0835D61E9E11FD00D7D133 /* NSString+CLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0835D31E9E11FD00D7D133 /* NSString+CLTools.m */; };
+		CD0835DC1E9E1E1500D7D133 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0835DB1E9E1E1500D7D133 /* CFNetwork.framework */; };
 		CD2B3E2A1E95ECE300FDFDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E291E95ECE300FDFDA3 /* main.m */; };
 		CD2B3E2D1E95ECE300FDFDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E2C1E95ECE300FDFDA3 /* AppDelegate.m */; };
 		CD2B3E361E95ECE300FDFDA3 /* MyFramework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E341E95ECE300FDFDA3 /* MyFramework.xcdatamodeld */; };
@@ -27,6 +32,16 @@
 
 /* Begin PBXFileReference section */
 		7A7751F832FBF8D6BEDB6BEA /* libPods-MyFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0835CA1E9E055500D7D133 /* SHNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkingManager.h; sourceTree = "<group>"; };
+		CD0835CB1E9E055500D7D133 /* SHNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkingManager.m; sourceTree = "<group>"; };
+		CD0835CE1E9E11FD00D7D133 /* CLImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLImageModel.h; sourceTree = "<group>"; };
+		CD0835CF1E9E11FD00D7D133 /* CLImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLImageModel.m; sourceTree = "<group>"; };
+		CD0835D01E9E11FD00D7D133 /* NSString+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Cache.h"; sourceTree = "<group>"; };
+		CD0835D11E9E11FD00D7D133 /* NSString+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cache.m"; sourceTree = "<group>"; };
+		CD0835D21E9E11FD00D7D133 /* NSString+CLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CLTools.h"; sourceTree = "<group>"; };
+		CD0835D31E9E11FD00D7D133 /* NSString+CLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CLTools.m"; sourceTree = "<group>"; };
+		CD0835DA1E9E157900D7D133 /* SHNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNetworking.h; sourceTree = "<group>"; };
+		CD0835DB1E9E1E1500D7D133 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CD2B3E251E95ECE300FDFDA3 /* MyFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2B3E291E95ECE300FDFDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD2B3E2B1E95ECE300FDFDA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0835DC1E9E1E1500D7D133 /* CFNetwork.framework in Frameworks */,
 				C7BCCA53C035AC9A2C4A5B5F /* libPods-MyFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +91,7 @@
 		06E1C5EE3420E31F49E43171 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD0835DB1E9E1E1500D7D133 /* CFNetwork.framework */,
 				7A7751F832FBF8D6BEDB6BEA /* libPods-MyFramework.a */,
 			);
 			name = Frameworks;
@@ -87,6 +104,38 @@
 				E1D2BDE6813885117EC4F269 /* Pods-MyFramework.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD0835C81E9DFAA600D7D133 /* SHNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				CD0835CD1E9E11FD00D7D133 /* Tools */,
+				CD0835C91E9E02C600D7D133 /* Request */,
+			);
+			name = SHNetWorking;
+			sourceTree = "<group>";
+		};
+		CD0835C91E9E02C600D7D133 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				CD0835CA1E9E055500D7D133 /* SHNetworkingManager.h */,
+				CD0835CB1E9E055500D7D133 /* SHNetworkingManager.m */,
+				CD0835DA1E9E157900D7D133 /* SHNetworking.h */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		CD0835CD1E9E11FD00D7D133 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CD0835CE1E9E11FD00D7D133 /* CLImageModel.h */,
+				CD0835CF1E9E11FD00D7D133 /* CLImageModel.m */,
+				CD0835D01E9E11FD00D7D133 /* NSString+Cache.h */,
+				CD0835D11E9E11FD00D7D133 /* NSString+Cache.m */,
+				CD0835D21E9E11FD00D7D133 /* NSString+CLTools.h */,
+				CD0835D31E9E11FD00D7D133 /* NSString+CLTools.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		CD2B3E1C1E95ECE300FDFDA3 = {
@@ -208,6 +257,7 @@
 		CD2B3E6B1E96322900FDFDA3 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				CD0835C81E9DFAA600D7D133 /* SHNetWorking */,
 				CD2B3E731E9644B800FDFDA3 /* MBProgressHUD+LJ.h */,
 				CD2B3E741E9644B800FDFDA3 /* MBProgressHUD+LJ.m */,
 				CD2B3E6C1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.h */,
@@ -440,16 +490,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0835D61E9E11FD00D7D133 /* NSString+CLTools.m in Sources */,
 				CD2B3E6A1E961E3400FDFDA3 /* SHPlusButtonSubClass.m in Sources */,
 				CD2B3E361E95ECE300FDFDA3 /* MyFramework.xcdatamodeld in Sources */,
+				CD0835D51E9E11FD00D7D133 /* NSString+Cache.m in Sources */,
 				CD2B3E2D1E95ECE300FDFDA3 /* AppDelegate.m in Sources */,
 				CD2B3E751E9644B800FDFDA3 /* MBProgressHUD+LJ.m in Sources */,
 				CD2B3E2A1E95ECE300FDFDA3 /* main.m in Sources */,
 				CD2B3E6E1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m in Sources */,
+				CD0835CC1E9E055500D7D133 /* SHNetworkingManager.m in Sources */,
 				CD2B3E611E95F2D000FDFDA3 /* PersonViewController.m in Sources */,
 				CD2B3E721E96380900FDFDA3 /* WRBButton.m in Sources */,
 				CD2B3E881E964D6C00FDFDA3 /* UIBaseViewController.m in Sources */,
 				CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */,
+				CD0835D41E9E11FD00D7D133 /* CLImageModel.m in Sources */,
 				CD2B3E641E95F2EE00FDFDA3 /* TheFirstViewController.m in Sources */,
 				CD2B3E8A1E964D6C00FDFDA3 /* TheThirdViewController.m in Sources */,
 				CD2B3E671E95F84000FDFDA3 /* SHTabbarControllerConfig.m in Sources */,
