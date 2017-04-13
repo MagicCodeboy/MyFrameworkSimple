@@ -7,7 +7,7 @@
 //
 
 #import "TheFirstViewController.h"
-
+#import "SHNetworking.h"
 @interface TheFirstViewController ()
 
 @end
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNavgationTitle:@"第一个"];
+    [self requestData];
+}
+-(void)requestData{
+    [SHNetworkingManager getNetworkRequestWithUrlString:@"/v1/cook/category/query" parameters:@{@"key":@"520520test",@"city":@"南京",@"province":@"江苏"} isCache:NO succeed:^(id data) {
+        NSLog(@"首页标题数据%@",data);
+    } fialed:^(NSString *error) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

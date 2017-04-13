@@ -28,6 +28,15 @@
 		CD2B3E881E964D6C00FDFDA3 /* UIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E7B1E964D6C00FDFDA3 /* UIBaseViewController.m */; };
 		CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E811E964D6C00FDFDA3 /* TheSecondViewController.m */; };
 		CD2B3E8A1E964D6C00FDFDA3 /* TheThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E871E964D6C00FDFDA3 /* TheThirdViewController.m */; };
+		CD33C45B1E9F2322004815AE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33C45A1E9F2322004815AE /* AdSupport.framework */; };
+		CD33C45D1E9F232C004815AE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33C45C1E9F232C004815AE /* Security.framework */; };
+		CD33C4691E9F242D004815AE /* YYCache+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4601E9F242D004815AE /* YYCache+Cache.m */; };
+		CD33C46A1E9F242D004815AE /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4621E9F242D004815AE /* YYCache.m */; };
+		CD33C46B1E9F242D004815AE /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4641E9F242D004815AE /* YYDiskCache.m */; };
+		CD33C46C1E9F242D004815AE /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4661E9F242D004815AE /* YYKVStorage.m */; };
+		CD33C46D1E9F242D004815AE /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4681E9F242D004815AE /* YYMemoryCache.m */; };
+		CD33C4711E9F2F9D004815AE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4701E9F2F9D004815AE /* UIView+Toast.m */; };
+		CD33C4731E9F5446004815AE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33C4721E9F5446004815AE /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +80,21 @@
 		CD2B3E811E964D6C00FDFDA3 /* TheSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSecondViewController.m; sourceTree = "<group>"; };
 		CD2B3E861E964D6C00FDFDA3 /* TheThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheThirdViewController.h; sourceTree = "<group>"; };
 		CD2B3E871E964D6C00FDFDA3 /* TheThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheThirdViewController.m; sourceTree = "<group>"; };
+		CD33C45A1E9F2322004815AE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CD33C45C1E9F232C004815AE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD33C45F1E9F242D004815AE /* YYCache+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYCache+Cache.h"; sourceTree = "<group>"; };
+		CD33C4601E9F242D004815AE /* YYCache+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYCache+Cache.m"; sourceTree = "<group>"; };
+		CD33C4611E9F242D004815AE /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		CD33C4621E9F242D004815AE /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		CD33C4631E9F242D004815AE /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		CD33C4641E9F242D004815AE /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		CD33C4651E9F242D004815AE /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		CD33C4661E9F242D004815AE /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		CD33C4671E9F242D004815AE /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		CD33C4681E9F242D004815AE /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		CD33C46F1E9F2F9D004815AE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		CD33C4701E9F2F9D004815AE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		CD33C4721E9F5446004815AE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D93C74DCE96117D59F61F8BC /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D2BDE6813885117EC4F269 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD33C4731E9F5446004815AE /* libsqlite3.tbd in Frameworks */,
+				CD33C45D1E9F232C004815AE /* Security.framework in Frameworks */,
+				CD33C45B1E9F2322004815AE /* AdSupport.framework in Frameworks */,
 				CD0835DC1E9E1E1500D7D133 /* CFNetwork.framework in Frameworks */,
 				C7BCCA53C035AC9A2C4A5B5F /* libPods-MyFramework.a in Frameworks */,
 			);
@@ -91,6 +118,9 @@
 		06E1C5EE3420E31F49E43171 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD33C4721E9F5446004815AE /* libsqlite3.tbd */,
+				CD33C45C1E9F232C004815AE /* Security.framework */,
+				CD33C45A1E9F2322004815AE /* AdSupport.framework */,
 				CD0835DB1E9E1E1500D7D133 /* CFNetwork.framework */,
 				7A7751F832FBF8D6BEDB6BEA /* libPods-MyFramework.a */,
 			);
@@ -257,6 +287,8 @@
 		CD2B3E6B1E96322900FDFDA3 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				CD33C46E1E9F2F88004815AE /* UIVIew+Toast */,
+				CD33C45E1E9F242D004815AE /* YYCache */,
 				CD0835C81E9DFAA600D7D133 /* SHNetWorking */,
 				CD2B3E731E9644B800FDFDA3 /* MBProgressHUD+LJ.h */,
 				CD2B3E741E9644B800FDFDA3 /* MBProgressHUD+LJ.m */,
@@ -366,6 +398,33 @@
 				CD2B3E871E964D6C00FDFDA3 /* TheThirdViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CD33C45E1E9F242D004815AE /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				CD33C45F1E9F242D004815AE /* YYCache+Cache.h */,
+				CD33C4601E9F242D004815AE /* YYCache+Cache.m */,
+				CD33C4611E9F242D004815AE /* YYCache.h */,
+				CD33C4621E9F242D004815AE /* YYCache.m */,
+				CD33C4631E9F242D004815AE /* YYDiskCache.h */,
+				CD33C4641E9F242D004815AE /* YYDiskCache.m */,
+				CD33C4651E9F242D004815AE /* YYKVStorage.h */,
+				CD33C4661E9F242D004815AE /* YYKVStorage.m */,
+				CD33C4671E9F242D004815AE /* YYMemoryCache.h */,
+				CD33C4681E9F242D004815AE /* YYMemoryCache.m */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		CD33C46E1E9F2F88004815AE /* UIVIew+Toast */ = {
+			isa = PBXGroup;
+			children = (
+				CD33C46F1E9F2F9D004815AE /* UIView+Toast.h */,
+				CD33C4701E9F2F9D004815AE /* UIView+Toast.m */,
+			);
+			name = "UIVIew+Toast";
+			path = YYCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,7 +555,9 @@
 				CD0835D51E9E11FD00D7D133 /* NSString+Cache.m in Sources */,
 				CD2B3E2D1E95ECE300FDFDA3 /* AppDelegate.m in Sources */,
 				CD2B3E751E9644B800FDFDA3 /* MBProgressHUD+LJ.m in Sources */,
+				CD33C4711E9F2F9D004815AE /* UIView+Toast.m in Sources */,
 				CD2B3E2A1E95ECE300FDFDA3 /* main.m in Sources */,
+				CD33C46D1E9F242D004815AE /* YYMemoryCache.m in Sources */,
 				CD2B3E6E1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m in Sources */,
 				CD0835CC1E9E055500D7D133 /* SHNetworkingManager.m in Sources */,
 				CD2B3E611E95F2D000FDFDA3 /* PersonViewController.m in Sources */,
@@ -505,6 +566,10 @@
 				CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */,
 				CD0835D41E9E11FD00D7D133 /* CLImageModel.m in Sources */,
 				CD2B3E641E95F2EE00FDFDA3 /* TheFirstViewController.m in Sources */,
+				CD33C46C1E9F242D004815AE /* YYKVStorage.m in Sources */,
+				CD33C46A1E9F242D004815AE /* YYCache.m in Sources */,
+				CD33C4691E9F242D004815AE /* YYCache+Cache.m in Sources */,
+				CD33C46B1E9F242D004815AE /* YYDiskCache.m in Sources */,
 				CD2B3E8A1E964D6C00FDFDA3 /* TheThirdViewController.m in Sources */,
 				CD2B3E671E95F84000FDFDA3 /* SHTabbarControllerConfig.m in Sources */,
 			);

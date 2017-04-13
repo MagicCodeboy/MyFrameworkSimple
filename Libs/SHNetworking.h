@@ -13,16 +13,24 @@
  基于AFNetworking3.1.0二次封装
  */
 #import "AFNetworking.h"
-
+#import "SHNetworkingManager.h"
 #import "CLImageModel.h"
 #import "NSString+CLTools.h"
 
+static NSString * const HTTPClientBaseURLString = @"http://apicloud.mob.com";
+
+
+#define KeyWindow       [[UIApplication sharedApplication] keyWindow]
+#define MainWindow      [[[UIApplication sharedApplication] delegate] window]
 //重写NSLog,Debug模式下打印日志和当前行数
 #ifdef DEBUG
 #define NetworkLog(s, ... ) NSLog( @"[%@ line:%d]=> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
 #else
 #define NetworkLog(s, ... )
 #endif
+
+//StringWithFormat
+#define StringWithFormat(Object) [NSString stringWithFormat:@"%@",Object]
 
 #define CacheDefaults [NSUserDefaults standardUserDefaults]
 

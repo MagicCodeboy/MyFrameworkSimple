@@ -11,6 +11,8 @@
 @class CLImageModel;
 @interface SHNetworkingManager : NSObject
 
+@property(nonatomic,assign)BOOL isReturnResponseObject;
+
 +(SHNetworkingManager *)shareManager;
 
 /*
