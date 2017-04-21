@@ -15,7 +15,6 @@
 		CD0835DC1E9E1E1500D7D133 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0835DB1E9E1E1500D7D133 /* CFNetwork.framework */; };
 		CD2B3E2A1E95ECE300FDFDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E291E95ECE300FDFDA3 /* main.m */; };
 		CD2B3E2D1E95ECE300FDFDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E2C1E95ECE300FDFDA3 /* AppDelegate.m */; };
-		CD2B3E361E95ECE300FDFDA3 /* MyFramework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E341E95ECE300FDFDA3 /* MyFramework.xcdatamodeld */; };
 		CD2B3E381E95ECE300FDFDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2B3E371E95ECE300FDFDA3 /* Assets.xcassets */; };
 		CD2B3E3B1E95ECE300FDFDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B3E391E95ECE300FDFDA3 /* LaunchScreen.storyboard */; };
 		CD2B3E611E95F2D000FDFDA3 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B3E601E95F2D000FDFDA3 /* PersonViewController.m */; };
@@ -37,6 +36,11 @@
 		CD33C46D1E9F242D004815AE /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4681E9F242D004815AE /* YYMemoryCache.m */; };
 		CD33C4711E9F2F9D004815AE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4701E9F2F9D004815AE /* UIView+Toast.m */; };
 		CD33C4731E9F5446004815AE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33C4721E9F5446004815AE /* libsqlite3.tbd */; };
+		CD62ADB01EA9B79D00E7F18C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADAF1EA9B79D00E7F18C /* LoginViewController.m */; };
+		CD62ADB81EA9CC0600E7F18C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADB41EA9CC0600E7F18C /* UIView+Frame.m */; };
+		CD62ADB91EA9CC0600E7F18C /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADB61EA9CC0600E7F18C /* UIView+BlockGesture.m */; };
+		CD62ADBC1EA9D6E100E7F18C /* Login_RegisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADBB1EA9D6E100E7F18C /* Login_RegisViewController.m */; };
+		CD62ADBF1EA9D77500E7F18C /* RegisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADBE1EA9D77500E7F18C /* RegisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +59,6 @@
 		CD2B3E291E95ECE300FDFDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD2B3E2B1E95ECE300FDFDA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD2B3E2C1E95ECE300FDFDA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD2B3E351E95ECE300FDFDA3 /* MyFramework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFramework.xcdatamodel; sourceTree = "<group>"; };
 		CD2B3E371E95ECE300FDFDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2B3E3A1E95ECE300FDFDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2B3E3C1E95ECE300FDFDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +98,17 @@
 		CD33C46F1E9F2F9D004815AE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		CD33C4701E9F2F9D004815AE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		CD33C4721E9F5446004815AE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CD62ADAE1EA9B79D00E7F18C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CD62ADAF1EA9B79D00E7F18C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CD62ADB31EA9CC0600E7F18C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CD62ADB41EA9CC0600E7F18C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CD62ADB51EA9CC0600E7F18C /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		CD62ADB61EA9CC0600E7F18C /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		CD62ADBA1EA9D6E100E7F18C /* Login_RegisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login_RegisViewController.h; sourceTree = "<group>"; };
+		CD62ADBB1EA9D6E100E7F18C /* Login_RegisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login_RegisViewController.m; sourceTree = "<group>"; };
+		CD62ADBD1EA9D77500E7F18C /* RegisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisViewController.h; sourceTree = "<group>"; };
+		CD62ADBE1EA9D77500E7F18C /* RegisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisViewController.m; sourceTree = "<group>"; };
+		CD62ADC41EA9EFE300E7F18C /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		D93C74DCE96117D59F61F8BC /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D2BDE6813885117EC4F269 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +132,7 @@
 		06E1C5EE3420E31F49E43171 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD62ADC41EA9EFE300E7F18C /* libstdc++.6.0.9.tbd */,
 				CD33C4721E9F5446004815AE /* libsqlite3.tbd */,
 				CD33C45C1E9F232C004815AE /* Security.framework */,
 				CD33C45A1E9F2322004815AE /* AdSupport.framework */,
@@ -171,6 +186,7 @@
 		CD2B3E1C1E95ECE300FDFDA3 = {
 			isa = PBXGroup;
 			children = (
+				CD62ADAA1EA9B77300E7F18C /* Login_regisController */,
 				CD2B3E761E964D6C00FDFDA3 /* UIBaseViewController */,
 				CD2B3E7C1E964D6C00FDFDA3 /* Two */,
 				CD2B3E821E964D6C00FDFDA3 /* Three */,
@@ -204,7 +220,6 @@
 				CD2B3E371E95ECE300FDFDA3 /* Assets.xcassets */,
 				CD2B3E391E95ECE300FDFDA3 /* LaunchScreen.storyboard */,
 				CD2B3E3C1E95ECE300FDFDA3 /* Info.plist */,
-				CD2B3E341E95ECE300FDFDA3 /* MyFramework.xcdatamodeld */,
 				CD2B3E281E95ECE300FDFDA3 /* Supporting Files */,
 			);
 			path = MyFramework;
@@ -297,6 +312,10 @@
 				CD2B3E6F1E96380900FDFDA3 /* WRBButton.h */,
 				CD2B3E701E96380900FDFDA3 /* WRBButton.m */,
 				CD2B3E711E96380900FDFDA3 /* WRBQuickControl.h */,
+				CD62ADB31EA9CC0600E7F18C /* UIView+Frame.h */,
+				CD62ADB41EA9CC0600E7F18C /* UIView+Frame.m */,
+				CD62ADB51EA9CC0600E7F18C /* UIView+BlockGesture.h */,
+				CD62ADB61EA9CC0600E7F18C /* UIView+BlockGesture.m */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -427,6 +446,43 @@
 			path = YYCache;
 			sourceTree = "<group>";
 		};
+		CD62ADAA1EA9B77300E7F18C /* Login_regisController */ = {
+			isa = PBXGroup;
+			children = (
+				CD62ADAB1EA9B77300E7F18C /* Controller */,
+				CD62ADAC1EA9B77300E7F18C /* Model */,
+				CD62ADAD1EA9B77300E7F18C /* View */,
+			);
+			path = Login_regisController;
+			sourceTree = "<group>";
+		};
+		CD62ADAB1EA9B77300E7F18C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD62ADBA1EA9D6E100E7F18C /* Login_RegisViewController.h */,
+				CD62ADBB1EA9D6E100E7F18C /* Login_RegisViewController.m */,
+				CD62ADAE1EA9B79D00E7F18C /* LoginViewController.h */,
+				CD62ADAF1EA9B79D00E7F18C /* LoginViewController.m */,
+				CD62ADBD1EA9D77500E7F18C /* RegisViewController.h */,
+				CD62ADBE1EA9D77500E7F18C /* RegisViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD62ADAC1EA9B77300E7F18C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD62ADAD1EA9B77300E7F18C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -549,14 +605,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD62ADB91EA9CC0600E7F18C /* UIView+BlockGesture.m in Sources */,
 				CD0835D61E9E11FD00D7D133 /* NSString+CLTools.m in Sources */,
 				CD2B3E6A1E961E3400FDFDA3 /* SHPlusButtonSubClass.m in Sources */,
-				CD2B3E361E95ECE300FDFDA3 /* MyFramework.xcdatamodeld in Sources */,
 				CD0835D51E9E11FD00D7D133 /* NSString+Cache.m in Sources */,
 				CD2B3E2D1E95ECE300FDFDA3 /* AppDelegate.m in Sources */,
+				CD62ADBC1EA9D6E100E7F18C /* Login_RegisViewController.m in Sources */,
 				CD2B3E751E9644B800FDFDA3 /* MBProgressHUD+LJ.m in Sources */,
 				CD33C4711E9F2F9D004815AE /* UIView+Toast.m in Sources */,
 				CD2B3E2A1E95ECE300FDFDA3 /* main.m in Sources */,
+				CD62ADB01EA9B79D00E7F18C /* LoginViewController.m in Sources */,
 				CD33C46D1E9F242D004815AE /* YYMemoryCache.m in Sources */,
 				CD2B3E6E1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m in Sources */,
 				CD0835CC1E9E055500D7D133 /* SHNetworkingManager.m in Sources */,
@@ -565,11 +623,13 @@
 				CD2B3E881E964D6C00FDFDA3 /* UIBaseViewController.m in Sources */,
 				CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */,
 				CD0835D41E9E11FD00D7D133 /* CLImageModel.m in Sources */,
+				CD62ADB81EA9CC0600E7F18C /* UIView+Frame.m in Sources */,
 				CD2B3E641E95F2EE00FDFDA3 /* TheFirstViewController.m in Sources */,
 				CD33C46C1E9F242D004815AE /* YYKVStorage.m in Sources */,
 				CD33C46A1E9F242D004815AE /* YYCache.m in Sources */,
 				CD33C4691E9F242D004815AE /* YYCache+Cache.m in Sources */,
 				CD33C46B1E9F242D004815AE /* YYDiskCache.m in Sources */,
+				CD62ADBF1EA9D77500E7F18C /* RegisViewController.m in Sources */,
 				CD2B3E8A1E964D6C00FDFDA3 /* TheThirdViewController.m in Sources */,
 				CD2B3E671E95F84000FDFDA3 /* SHTabbarControllerConfig.m in Sources */,
 			);
@@ -731,19 +791,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CD2B3E341E95ECE300FDFDA3 /* MyFramework.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CD2B3E351E95ECE300FDFDA3 /* MyFramework.xcdatamodel */,
-			);
-			currentVersion = CD2B3E351E95ECE300FDFDA3 /* MyFramework.xcdatamodel */;
-			path = MyFramework.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CD2B3E1D1E95ECE300FDFDA3 /* Project object */;
 }

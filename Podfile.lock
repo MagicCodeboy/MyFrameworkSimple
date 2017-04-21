@@ -16,17 +16,20 @@ PODS:
     - AFNetworking/NSURLSession
   - CYLTabBarController (1.10.0)
   - MBProgressHUD (0.9.2)
+  - SDAutoLayout (2.1.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - CYLTabBarController (~> 1.10.0)
   - MBProgressHUD (~> 0.9.2)
+  - SDAutoLayout (~> 2.1.7)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
 
-PODFILE CHECKSUM: f7ecb05cc8e465d6e80c644e3611dc6b95dbe5e6
+PODFILE CHECKSUM: de194d1ba12e17da850439149941b90f5f9d2c14
 
 COCOAPODS: 1.0.1

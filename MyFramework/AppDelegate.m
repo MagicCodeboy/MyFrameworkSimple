@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "SHTabbarControllerConfig.h"
 #import "SHPlusButtonSubClass.h"
+#import "RegisViewController.h"
+#import "Login_RegisViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,9 +22,11 @@
    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    [SHPlusButtonSubClass registerPlusButton];
-    SHTabbarControllerConfig * tabbarControllerConfig = [[SHTabbarControllerConfig alloc]init];
-    self.window.rootViewController = tabbarControllerConfig.tabbarController;
+//    [SHPlusButtonSubClass registerPlusButton];
+//    SHTabbarControllerConfig * tabbarControllerConfig = [[SHTabbarControllerConfig alloc]init];
+//    self.window.rootViewController = tabbarControllerConfig.tabbarController;
+    Login_RegisViewController * regisViewController = [[Login_RegisViewController alloc]init];
+    self.window.rootViewController = regisViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
