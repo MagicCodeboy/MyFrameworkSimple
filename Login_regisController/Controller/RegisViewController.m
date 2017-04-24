@@ -8,6 +8,7 @@
 
 #import "RegisViewController.h"
 #import "SDAutoLayout.h"
+#import "LoginViewController.h"
 @interface RegisViewController ()
 @property(nonatomic,strong) UITextField * phoneTextField;
 @property(nonatomic,strong) UITextField * passWordTextField;
@@ -22,16 +23,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self addBackBtn];
+    
     [self configUI];
+}
+-(void)backBtn:(WRBButton *)button{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 //布局注册页面
 -(void)configUI{
+    
+    [self setNavgationTitle:@"注册"];
+    
     _phoneTextField = [[UITextField alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 50)];
     _phoneTextField.borderStyle = UITextBorderStyleRoundedRect;
+    _phoneTextField.keyboardType = UIKeyboardTypeNumberPad;
     _phoneTextField.placeholder = @"请输入你的电话号码";
     _phoneTextField.backgroundColor = [UIColor whiteColor];
     _passWordTextField = [[UITextField alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 50)];
     _passWordTextField.backgroundColor = [UIColor whiteColor];
+    _passWordTextField.keyboardType = UIKeyboardTypeNumberPad;
     _passWordTextField.placeholder = @"请设置你的密码";
     _passWordTextField.borderStyle = UITextBorderStyleBezel;
     _verificationCodeTextField = [[UITextField alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 50)];
@@ -45,6 +56,7 @@
     _completeBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 40)];
     _completeBtn.backgroundColor = [UIColor orangeColor];
     [_completeBtn setTitle:@"完成" forState:UIControlStateNormal];
+    [_completeBtn addTarget:self action:@selector(completeClick) forControlEvents:UIControlEventTouchUpInside];
     [_completeBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     _agreeMentlabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 21)];
     _agreeMentlabel.backgroundColor = [UIColor orangeColor];
@@ -59,6 +71,10 @@
     [self.view addSubview:_completeBtn];
     [self.view addSubview:_agreeMentlabel];
     [self setLayOutSubViews];
+}
+-(void)completeClick{
+    LoginViewController * login = [[LoginViewController alloc]init];
+    [self.navigationController pushViewController:login animated:NO];
 }
 //开始布局页面
 -(void)setLayOutSubViews{

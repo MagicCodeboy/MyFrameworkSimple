@@ -1,0 +1,61 @@
+//
+//  PrefixHeader.pch
+//  MyFramework
+//
+//  Created by lalala on 2017/4/24.
+//  Copyright © 2017年 lsh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+// __OBJC__这个宏,宏内引用的文件确保只被使用Objective-C语言的文件所引用，限定仅仅被OC代码使用
+#ifdef __OBJC__
+
+/**
+ *  配置自定义的测试Log
+ */
+#ifdef DEBUG
+#define MYLog(...) NSLog(__VA_ARGS__)
+#else
+#define MYLog(...)
+#endif
+#endif
+
+//按照比例适配  实际的高度和宽度 按照6来适配
+#define SHIJI_HEIGHT SCREEN_HEIGHT/667
+#define  SHIJI_WIDTH SCREEN_WIDTH/375
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+// rgb颜色转换（16进制->10进制）
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//红色
+#define REDCOLOR UIColorFromRGB(0xFF554C)
+//灰色
+#define  LIGHTGRAYCOLOR UIColorFromRGB(0xCCCCCC)
+//深灰色
+#define  SHENHUICOLOR UIColorFromRGB(0x999999)
+// 获取RGB颜色
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+
+//定义一个避免引用循环的weakself
+#define  WeakSelf(name,className)  __weak typeof(className)name=className;
+//StringWithFormat
+#define StringWithFormat(Object) [NSString stringWithFormat:@"%@",Object]
+
+#define  ISNULL(content) [content isKindOfClass:[NSNull class]]||[StringWithFormat(content) isEqualToString:@"(null)"]||content==nil||[StringWithFormat(content) isEqualToString:@"<null>"]||[StringWithFormat(content) isEqualToString:@""]||[StringWithFormat(content) isEqualToString:@" "]
+
+//定义UIImage对象
+#define IMAGE(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+//AddTargetInside
+#define ADD_TARGET_INSIDE(ButtonName,Selector) [ButtonName addTarget:self action:@selector(Selector) forControlEvents:UIControlEventTouchUpInside];
+//ButtonSetimage title
+#define BUTTON_SETIMAGE(ButtonName,imageName) [ButtonName setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+#define BUTTON_SETIMAGESELECTED(ButtonName,imageName) [ButtonName setImage:[UIImage imageNamed:imageName] forState:UIControlStateSelected];
+#endif /* PrefixHeader_pch */

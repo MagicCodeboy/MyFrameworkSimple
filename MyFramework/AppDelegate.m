@@ -9,26 +9,65 @@
 #import "AppDelegate.h"
 #import "SHTabbarControllerConfig.h"
 #import "SHPlusButtonSubClass.h"
-#import "RegisViewController.h"
 #import "Login_RegisViewController.h"
+
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialSinaSSOHandler.h"
+#import "UMSocialWechatHandler.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
++(AppDelegate *)shareDelegate{
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [self setUMSociaLogin];
    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-//    [SHPlusButtonSubClass registerPlusButton];
-//    SHTabbarControllerConfig * tabbarControllerConfig = [[SHTabbarControllerConfig alloc]init];
-//    self.window.rootViewController = tabbarControllerConfig.tabbarController;
-    Login_RegisViewController * regisViewController = [[Login_RegisViewController alloc]init];
-    self.window.rootViewController = regisViewController;
+    
+    [self goLogin];
+    
+    MYLog(@"添加pch文件成功了");
     [self.window makeKeyAndVisible];
     return YES;
+}
+-(void)goLogin{
+    Login_RegisViewController * regisViewController = [[Login_RegisViewController alloc]init];
+    self.window.rootViewController = regisViewController;
+}
+-(void)goMain{
+    
+    //移除uiwindow
+    [self.window.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    self.window.rootViewController = nil;
+    [self.window removeFromSuperview];
+    
+    [self.window makeKeyAndVisible];
+    
+    [SHPlusButtonSubClass registerPlusButton];
+    SHTabbarControllerConfig * tabbarControllerConfig = [[SHTabbarControllerConfig alloc]init];
+    self.window.rootViewController = tabbarControllerConfig.tabbarController;
+}
+-(void)setUMSociaLogin{
+    [UMSocialData setAppKey:@"58fb6b0e1061d26845000e03"];
+    //是否打开我们SDK在控制台的输出后能看到相应的错误码
+    [UMSocialData openLog:YES];
+    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:@"930133636"
+                                              secret:@"06eff32a7cb5628415e255bd776ee83d"
+                                         RedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    //    //设置微信AppId、appSecret，分享url
+    [UMSocialWechatHandler setWXAppId:@"wx521aaf688057bcf1" appSecret:@"c5b7f9a6b10aa7bde0c3380df26d77a5" url:@"http://www.umeng.com/social"];
+    //设置手机QQ 的AppId，Appkey，和分享URL，需要#import "UMSocialQQHandler.h"
+    [UMSocialQQHandler setQQWithAppId:@"1105320395" appKey:@"KEYry9YWPR4ObSojYvk" url:@"http://www.umeng.com/social"];
+}
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    return [UMSocialSnsService handleOpenURL:url];
 }
 
 

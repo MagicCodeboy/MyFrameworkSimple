@@ -17,6 +17,9 @@
 
 - (void)saveContext;
 
++(AppDelegate *)shareDelegate;
+
+-(void)goMain;
 
 @end
 
