@@ -57,6 +57,7 @@
 		CD33C46D1E9F242D004815AE /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4681E9F242D004815AE /* YYMemoryCache.m */; };
 		CD33C4711E9F2F9D004815AE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33C4701E9F2F9D004815AE /* UIView+Toast.m */; };
 		CD33C4731E9F5446004815AE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33C4721E9F5446004815AE /* libsqlite3.tbd */; };
+		CD340D391F9D8C9F0072290E /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340D381F9D8C9F0072290E /* Helper.m */; };
 		CD62ADB01EA9B79D00E7F18C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADAF1EA9B79D00E7F18C /* LoginViewController.m */; };
 		CD62ADB81EA9CC0600E7F18C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADB41EA9CC0600E7F18C /* UIView+Frame.m */; };
 		CD62ADB91EA9CC0600E7F18C /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62ADB61EA9CC0600E7F18C /* UIView+BlockGesture.m */; };
@@ -174,6 +175,8 @@
 		CD33C46F1E9F2F9D004815AE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		CD33C4701E9F2F9D004815AE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		CD33C4721E9F5446004815AE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CD340D371F9D8C9F0072290E /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		CD340D381F9D8C9F0072290E /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 		CD4849011EAD9D1500276941 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CD62ADAE1EA9B79D00E7F18C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CD62ADAF1EA9B79D00E7F18C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -511,6 +514,8 @@
 				CD2B3E6D1E96323900FDFDA3 /* UIViewController+WRBNavigationItemExtension.m */,
 				CD2B3E6F1E96380900FDFDA3 /* WRBButton.h */,
 				CD2B3E701E96380900FDFDA3 /* WRBButton.m */,
+				CD340D371F9D8C9F0072290E /* Helper.h */,
+				CD340D381F9D8C9F0072290E /* Helper.m */,
 				CD2B3E711E96380900FDFDA3 /* WRBQuickControl.h */,
 				CD62ADB31EA9CC0600E7F18C /* UIView+Frame.h */,
 				CD62ADB41EA9CC0600E7F18C /* UIView+Frame.m */,
@@ -832,6 +837,7 @@
 				CD2B3E611E95F2D000FDFDA3 /* PersonViewController.m in Sources */,
 				CD2B3E721E96380900FDFDA3 /* WRBButton.m in Sources */,
 				CD2B3E881E964D6C00FDFDA3 /* UIBaseViewController.m in Sources */,
+				CD340D391F9D8C9F0072290E /* Helper.m in Sources */,
 				CD2B3E891E964D6C00FDFDA3 /* TheSecondViewController.m in Sources */,
 				1975EA551EAC48ED007EA29D /* UMLoginTool.m in Sources */,
 				CD0835D41E9E11FD00D7D133 /* CLImageModel.m in Sources */,
